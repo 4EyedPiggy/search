@@ -1,0 +1,51 @@
+﻿a {
+    float: right;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    text-decoration:underline;
+}
+
+a:visited {
+        color: #681da8;
+}
+
+div {
+    text-align: center
+}
+
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+.inputq {
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;  
+    max-width: 584px;
+}
+
+.inputq:hover{
+    background-color:#fff;
+    box-shadow:0 1px 6px rgba(32,33,36,.28);
+    border-color:rgba(223,225,229,0);
+}
+
+.divbutton {
+    padding: 5px 10px 5px 10px
+}
+
+
+
